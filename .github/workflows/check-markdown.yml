@@ -24,7 +24,7 @@ jobs:
         uses: jdx/mise-action@v3
         with:
           install: true
-          install_args: "markdownlint-cli2"
+          install_args: "markdownlint-cli2 github:23prime/md-section-numbers-checker github:kevingimbel/mktoc"
           cache: true
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
