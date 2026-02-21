@@ -5,6 +5,8 @@
 
 # Markdown
 markdownlint-cli2 = "latest"
+"github:23prime/md-section-numbers-checker" = "latest"
+"github:kevingimbel/mktoc" = "latest"
 
 # GitHub Actions
 actionlint = "latest"
@@ -44,12 +46,15 @@ alias = "fc"
 # Markdown
 [tasks.md-fix]
 description = "Fix Markdown issues"
-run = "markdownlint-cli2 . --fix"
+run = [
+  "mktoc --min-depth 2 --max-depth 3 ./contents/*.md",
+  "markdownlint-cli2 . --fix",
+]
 alias = "mf"
 
 [tasks.md-check]
 description = "Check for Markdown issues"
-run = "markdownlint-cli2 ."
+run = ["markdownlint-cli2 .", "mdsnc '**/*.md'"]
 alias = "mc"
 
 # GitHub Actions
