@@ -2,7 +2,7 @@
 
 This file provides guidance to AI coding agents when working with code in this repository.
 
-## General agent rules
+## General Agent Rules
 
 - When users ask questions, answer them instead of doing the work.
 
@@ -13,4 +13,47 @@ This file provides guidance to AI coding agents when working with code in this r
 
 ## Project Overview
 
-<!-- Something -->
+A personal Markdown notes repository. All content lives under `contents/`.
+
+## Setup
+
+Prerequisites: [mise](https://mise.jdx.dev)
+
+```bash
+mise run setup     # Install all tools
+lefthook install   # Enable git hooks
+```
+
+## Tools
+
+Managed by mise (`mise.toml`):
+
+- `markdownlint-cli2` — Markdown linter
+- `md-section-numbers-checker` (`mdsnc`) — Section number validator
+- `mktoc` — Table of contents generator for `contents/*.md`
+- `cspell` — Spell checker
+- `actionlint` + `shellcheck` — GitHub Actions / shell linter
+- `lefthook` — Git hooks manager
+
+## Common Commands
+
+| Command | Description |
+| --- | --- |
+| `mise run fix` | Auto-fix all issues |
+| `mise run check` | Run all checks |
+| `mise run fix-and-check` | Fix then check |
+| `mise run md-fix` | Fix Markdown issues |
+| `mise run md-check` | Check Markdown issues |
+
+## Git Hooks
+
+`pre-commit` and `pre-push` both run `mise run check` via lefthook.
+
+## Markdown Style
+
+- Unordered lists: dashes (`-`)
+- Emphasis / strong: asterisks (`*`)
+- No line length limit
+- Inline HTML: only `<br>` is allowed
+- 2-space indentation, LF line endings, trailing whitespace trimmed, final newline required
+- Fenced code blocks must specify a language identifier
