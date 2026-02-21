@@ -21,7 +21,6 @@ Prerequisites: [mise](https://mise.jdx.dev)
 
 ```bash
 mise run setup     # Install all tools
-lefthook install   # Enable git hooks
 ```
 
 ## Tools
