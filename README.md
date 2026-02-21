@@ -1,68 +1,25 @@
-# Development Template with mise
+# Notes
 
-A Template for development with [mise](https://mise.jdx.dev).
+Markdown notes.
 
-## Getting started
+## Setup
 
-1. Clone this repository.
+### Pre-requisites
 
-    ```bash
-    git clone git@github.com:23prime/mise-template.git
-    ```
+- [mise](https://mise.jdx.dev)
 
-2. Copy the cloned repository to anywhere..
+### Steps
 
-    ```bash
-    cp -ar mise-template <your-repo-path>
-    ```
+Install tools.
 
-3. Into your repository.
+   ```bash
+   mise run setup
+   ```
 
-    ```bash
-    cd <your-repo-path>
-    ```
+## Commands
 
-4. Rename remote repository to `upstream`.
-
-    ```bash
-    git remote rename origin upstream
-    ```
-
-5. Create your remote repository as `origin` and set URL, push.
-
-    If you use GitHub CLI:
-
-    ```bash
-    gh repo create "<your-repo-name>" --private --source=. --remote=origin --push
-    ```
-
-    If you create repository on GitHub manually:
-
-    ```bash
-    git remote set-url origin <your-remote-url>
-    git push -u origin main
-    ```
-
-6. Check remote repositories.
-
-    ```bash
-    $ git remote -v
-    origin  <your-remote-url> (fetch)
-    origin  <your-remote-url> (push)
-    upstream        git@github.com:23prime/mise-template.git (fetch)
-    upstream        git@github.com:23prime/mise-template.git (push)
-    ```
-
-## Merge from upstream
-
-1. Fetch upstream changes.
-
-    ```bash
-    git fetch upstream
-    ```
-
-2. Merge.
-
-    ```bash
-    git merge upstream/main
-    ```
+| Command | Description |
+| --- | --- |
+| `mise run fix` | Auto-fix issues |
+| `mise run check` | Run all checks |
+| `mise run fix-and-check` | Fix then check |
