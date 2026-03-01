@@ -55,13 +55,13 @@ alias = "fc"
 description = "Fix Markdown issues"
 run = [
   "mktoc --min-depth 2 --max-depth 3 ./contents/*.md",
-  "markdownlint-cli2 . --fix",
+  "markdownlint-cli2 '**/*.md' --fix",
 ]
 alias = "mf"
 
 [tasks.md-check]
 description = "Check for Markdown issues"
-run = ["markdownlint-cli2 .", "mdsnc '**/*.md'"]
+run = ["markdownlint-cli2 '**/*.md'", "mdsnc '**/*.md'"]
 alias = "mc"
 
 # GitHub Actions
