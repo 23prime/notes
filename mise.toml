@@ -12,7 +12,7 @@ auto_install = false
 
 # Markdown
 markdownlint-cli2 = "0.22"
-"github:23prime/md-section-numbers-checker" = "latest"
+"github:23prime/mdsn" = "0.2"
 "github:kevingimbel/mktoc" = "5"
 
 # GitHub Actions
@@ -62,7 +62,7 @@ alias = "mf"
 
 [tasks.md-check]
 description = "Check for Markdown issues"
-run = ["markdownlint-cli2 '**/*.md'", "mdsnc '**/*.md'"]
+run = ["markdownlint-cli2 '**/*.md'", "mdsn '**/*.md'"]
 alias = "mc"
 
 # GitHub Actions

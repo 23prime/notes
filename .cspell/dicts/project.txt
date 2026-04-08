@@ -1,4 +1,4 @@
-mdsnc
+mdsn
 mktoc
 kevingimbel
 bcnf

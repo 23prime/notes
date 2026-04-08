@@ -28,7 +28,7 @@ mise run setup     # Install all tools
 Managed by mise (`mise.toml`):
 
 - `markdownlint-cli2` — Markdown linter
-- `md-section-numbers-checker` (`mdsnc`) — Section number validator
+- `mdsn` — Section number validator
 - `mktoc` — Table of contents generator for `contents/*.md`
 - `cspell` — Spell checker
 - `actionlint` + `shellcheck` — GitHub Actions / shell linter

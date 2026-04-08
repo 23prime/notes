@@ -36,13 +36,78 @@ url = "https://github.com/rhysd/actionlint/releases/download/v1.7.12/actionlint_
 version = "9.8.0"
 backend = "npm:cspell"
 
-[[tools."github:23prime/md-section-numbers-checker"]]
-version = "0.0.5"
-backend = "github:23prime/md-section-numbers-checker"
+[[tools."github:23prime/mdsn"]]
+version = "0.2.0"
+backend = "github:23prime/mdsn"
+
+[tools."github:23prime/mdsn"."platforms.linux-arm64"]
+checksum = "sha256:ce2ac0d216e043c3530ac68bde419957151a66191da48c999eab3f0f2943e00f"
+url = "https://github.com/23prime/mdsn/releases/download/v0.2.0/mdsn-aarch64-unknown-linux-gnu.tar.gz"
+url_api = "https://api.github.com/repos/23prime/mdsn/releases/assets/384830215"
+
+[tools."github:23prime/mdsn"."platforms.linux-arm64-musl"]
+checksum = "sha256:ce2ac0d216e043c3530ac68bde419957151a66191da48c999eab3f0f2943e00f"
+url = "https://github.com/23prime/mdsn/releases/download/v0.2.0/mdsn-aarch64-unknown-linux-gnu.tar.gz"
+url_api = "https://api.github.com/repos/23prime/mdsn/releases/assets/384830215"
+
+[tools."github:23prime/mdsn"."platforms.linux-x64"]
+checksum = "sha256:0b67969856f8047ff53694b60df4ffa31de6ef764801dc22786c29726cf6939d"
+url = "https://github.com/23prime/mdsn/releases/download/v0.2.0/mdsn-x86_64-unknown-linux-gnu.tar.gz"
+url_api = "https://api.github.com/repos/23prime/mdsn/releases/assets/384829822"
+
+[tools."github:23prime/mdsn"."platforms.linux-x64-musl"]
+checksum = "sha256:0b67969856f8047ff53694b60df4ffa31de6ef764801dc22786c29726cf6939d"
+url = "https://github.com/23prime/mdsn/releases/download/v0.2.0/mdsn-x86_64-unknown-linux-gnu.tar.gz"
+url_api = "https://api.github.com/repos/23prime/mdsn/releases/assets/384829822"
+
+[tools."github:23prime/mdsn"."platforms.macos-arm64"]
+checksum = "sha256:439f3ef26a8a9d609ad550458150f87f01213e41e739b4d1b12ecf6e1be3f9f2"
+url = "https://github.com/23prime/mdsn/releases/download/v0.2.0/mdsn-aarch64-apple-darwin.tar.gz"
+url_api = "https://api.github.com/repos/23prime/mdsn/releases/assets/384829874"
+
+[tools."github:23prime/mdsn"."platforms.macos-x64"]
+checksum = "sha256:b9eb96eb922a6328dd9e0205df43c088ff8bd580a5f93144844f9550dd040c51"
+url = "https://github.com/23prime/mdsn/releases/download/v0.2.0/mdsn-x86_64-apple-darwin.tar.gz"
+url_api = "https://api.github.com/repos/23prime/mdsn/releases/assets/384829981"
+
+[tools."github:23prime/mdsn"."platforms.windows-x64"]
+checksum = "sha256:e4a7129a11fd101992bb4246f13ad4b6a413ae4a33ad883ba0851ea0b9d236e2"
+url = "https://github.com/23prime/mdsn/releases/download/v0.2.0/mdsn-x86_64-pc-windows-msvc.zip"
+url_api = "https://api.github.com/repos/23prime/mdsn/releases/assets/384830333"
 
 [[tools."github:kevingimbel/mktoc"]]
 version = "5.1.1"
 backend = "github:kevingimbel/mktoc"
+
+[tools."github:kevingimbel/mktoc"."platforms.linux-arm64"]
+checksum = "sha256:95cf8abf7447566baf225fb4baefdb6a2bed6b3440519fd02449b5a4bdf14c48"
+url = "https://github.com/KevinGimbel/mktoc/releases/download/v5.1.1/mktoc-aarch64-unknown-linux-gnu.tar.gz"
+url_api = "https://api.github.com/repos/KevinGimbel/mktoc/releases/assets/334431944"
+
+[tools."github:kevingimbel/mktoc"."platforms.linux-arm64-musl"]
+checksum = "sha256:95cf8abf7447566baf225fb4baefdb6a2bed6b3440519fd02449b5a4bdf14c48"
+url = "https://github.com/KevinGimbel/mktoc/releases/download/v5.1.1/mktoc-aarch64-unknown-linux-gnu.tar.gz"
+url_api = "https://api.github.com/repos/KevinGimbel/mktoc/releases/assets/334431944"
+
+[tools."github:kevingimbel/mktoc"."platforms.linux-x64"]
+checksum = "sha256:ae800cf945cb59c75ba0df87df62651bd9d91cc70e826012dd732eba94606802"
+url = "https://github.com/KevinGimbel/mktoc/releases/download/v5.1.1/mktoc-x86_64-unknown-linux-gnu.tar.gz"
+url_api = "https://api.github.com/repos/KevinGimbel/mktoc/releases/assets/334431843"
+
+[tools."github:kevingimbel/mktoc"."platforms.linux-x64-musl"]
+checksum = "sha256:ae800cf945cb59c75ba0df87df62651bd9d91cc70e826012dd732eba94606802"
+url = "https://github.com/KevinGimbel/mktoc/releases/download/v5.1.1/mktoc-x86_64-unknown-linux-gnu.tar.gz"
+url_api = "https://api.github.com/repos/KevinGimbel/mktoc/releases/assets/334431843"
+
+[tools."github:kevingimbel/mktoc"."platforms.macos-arm64"]
+checksum = "sha256:0e17561184de84218197be9856c5f4af905d77a652330ef583e948b1194fb0d2"
+url = "https://github.com/KevinGimbel/mktoc/releases/download/v5.1.1/mktoc-aarch64-apple-darwin.tar.gz"
+url_api = "https://api.github.com/repos/KevinGimbel/mktoc/releases/assets/334431872"
+
+[tools."github:kevingimbel/mktoc"."platforms.macos-x64"]
+checksum = "sha256:56306101e9a24d5cb47d64e320b6af8203ea6f7134cd4f369e13cde3d3ff4c57"
+url = "https://github.com/KevinGimbel/mktoc/releases/download/v5.1.1/mktoc-x86_64-apple-darwin.tar.gz"
+url_api = "https://api.github.com/repos/KevinGimbel/mktoc/releases/assets/334431845"
 
 [[tools."github:zizmorcore/zizmor"]]
 version = "1.23.1"
