@@ -13,7 +13,7 @@ auto_install = false
 # Markdown
 markdownlint-cli2 = "0.22"
 "github:23prime/md-section-numbers-checker" = "latest"
-"github:kevingimbel/mktoc" = "latest"
+"github:kevingimbel/mktoc" = "5"
 
 # GitHub Actions
 actionlint = "1"
