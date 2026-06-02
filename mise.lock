@@ -51,43 +51,36 @@ backend = "github:23prime/mdsn"
 checksum = "sha256:ce2ac0d216e043c3530ac68bde419957151a66191da48c999eab3f0f2943e00f"
 url = "https://github.com/23prime/mdsn/releases/download/v0.2.0/mdsn-aarch64-unknown-linux-gnu.tar.gz"
 url_api = "https://api.github.com/repos/23prime/mdsn/releases/assets/384830215"
-github_attestations = "unavailable"
 
 [tools."github:23prime/mdsn"."platforms.linux-arm64-musl"]
 checksum = "sha256:ce2ac0d216e043c3530ac68bde419957151a66191da48c999eab3f0f2943e00f"
 url = "https://github.com/23prime/mdsn/releases/download/v0.2.0/mdsn-aarch64-unknown-linux-gnu.tar.gz"
 url_api = "https://api.github.com/repos/23prime/mdsn/releases/assets/384830215"
-github_attestations = "unavailable"
 
 [tools."github:23prime/mdsn"."platforms.linux-x64"]
 checksum = "sha256:0b67969856f8047ff53694b60df4ffa31de6ef764801dc22786c29726cf6939d"
 url = "https://github.com/23prime/mdsn/releases/download/v0.2.0/mdsn-x86_64-unknown-linux-gnu.tar.gz"
 url_api = "https://api.github.com/repos/23prime/mdsn/releases/assets/384829822"
-github_attestations = "unavailable"
 
 [tools."github:23prime/mdsn"."platforms.linux-x64-musl"]
 checksum = "sha256:0b67969856f8047ff53694b60df4ffa31de6ef764801dc22786c29726cf6939d"
 url = "https://github.com/23prime/mdsn/releases/download/v0.2.0/mdsn-x86_64-unknown-linux-gnu.tar.gz"
 url_api = "https://api.github.com/repos/23prime/mdsn/releases/assets/384829822"
-github_attestations = "unavailable"
 
 [tools."github:23prime/mdsn"."platforms.macos-arm64"]
 checksum = "sha256:439f3ef26a8a9d609ad550458150f87f01213e41e739b4d1b12ecf6e1be3f9f2"
 url = "https://github.com/23prime/mdsn/releases/download/v0.2.0/mdsn-aarch64-apple-darwin.tar.gz"
 url_api = "https://api.github.com/repos/23prime/mdsn/releases/assets/384829874"
-github_attestations = "unavailable"
 
 [tools."github:23prime/mdsn"."platforms.macos-x64"]
 checksum = "sha256:b9eb96eb922a6328dd9e0205df43c088ff8bd580a5f93144844f9550dd040c51"
 url = "https://github.com/23prime/mdsn/releases/download/v0.2.0/mdsn-x86_64-apple-darwin.tar.gz"
 url_api = "https://api.github.com/repos/23prime/mdsn/releases/assets/384829981"
-github_attestations = "unavailable"
 
 [tools."github:23prime/mdsn"."platforms.windows-x64"]
 checksum = "sha256:e4a7129a11fd101992bb4246f13ad4b6a413ae4a33ad883ba0851ea0b9d236e2"
 url = "https://github.com/23prime/mdsn/releases/download/v0.2.0/mdsn-x86_64-pc-windows-msvc.zip"
 url_api = "https://api.github.com/repos/23prime/mdsn/releases/assets/384830333"
-github_attestations = "unavailable"
 
 [[tools."github:kevingimbel/mktoc"]]
 version = "5.1.1"
@@ -97,37 +90,31 @@ backend = "github:kevingimbel/mktoc"
 checksum = "sha256:95cf8abf7447566baf225fb4baefdb6a2bed6b3440519fd02449b5a4bdf14c48"
 url = "https://github.com/KevinGimbel/mktoc/releases/download/v5.1.1/mktoc-aarch64-unknown-linux-gnu.tar.gz"
 url_api = "https://api.github.com/repos/KevinGimbel/mktoc/releases/assets/334431944"
-github_attestations = "unavailable"
 
 [tools."github:kevingimbel/mktoc"."platforms.linux-arm64-musl"]
 checksum = "sha256:95cf8abf7447566baf225fb4baefdb6a2bed6b3440519fd02449b5a4bdf14c48"
 url = "https://github.com/KevinGimbel/mktoc/releases/download/v5.1.1/mktoc-aarch64-unknown-linux-gnu.tar.gz"
 url_api = "https://api.github.com/repos/KevinGimbel/mktoc/releases/assets/334431944"
-github_attestations = "unavailable"
 
 [tools."github:kevingimbel/mktoc"."platforms.linux-x64"]
 checksum = "sha256:ae800cf945cb59c75ba0df87df62651bd9d91cc70e826012dd732eba94606802"
 url = "https://github.com/KevinGimbel/mktoc/releases/download/v5.1.1/mktoc-x86_64-unknown-linux-gnu.tar.gz"
 url_api = "https://api.github.com/repos/KevinGimbel/mktoc/releases/assets/334431843"
-github_attestations = "unavailable"
 
 [tools."github:kevingimbel/mktoc"."platforms.linux-x64-musl"]
 checksum = "sha256:ae800cf945cb59c75ba0df87df62651bd9d91cc70e826012dd732eba94606802"
 url = "https://github.com/KevinGimbel/mktoc/releases/download/v5.1.1/mktoc-x86_64-unknown-linux-gnu.tar.gz"
 url_api = "https://api.github.com/repos/KevinGimbel/mktoc/releases/assets/334431843"
-github_attestations = "unavailable"
 
 [tools."github:kevingimbel/mktoc"."platforms.macos-arm64"]
 checksum = "sha256:0e17561184de84218197be9856c5f4af905d77a652330ef583e948b1194fb0d2"
 url = "https://github.com/KevinGimbel/mktoc/releases/download/v5.1.1/mktoc-aarch64-apple-darwin.tar.gz"
 url_api = "https://api.github.com/repos/KevinGimbel/mktoc/releases/assets/334431872"
-github_attestations = "unavailable"
 
 [tools."github:kevingimbel/mktoc"."platforms.macos-x64"]
 checksum = "sha256:56306101e9a24d5cb47d64e320b6af8203ea6f7134cd4f369e13cde3d3ff4c57"
 url = "https://github.com/KevinGimbel/mktoc/releases/download/v5.1.1/mktoc-x86_64-apple-darwin.tar.gz"
 url_api = "https://api.github.com/repos/KevinGimbel/mktoc/releases/assets/334431845"
-github_attestations = "unavailable"
 
 [[tools.gitleaks]]
 version = "8.30.1"
@@ -162,42 +149,42 @@ checksum = "sha256:d29144deff3a68aa93ced33dddf84b7fdc26070add4aa0f4513094c8332af
 url = "https://github.com/gitleaks/gitleaks/releases/download/v8.30.1/gitleaks_8.30.1_windows_x64.zip"
 
 [[tools.lefthook]]
-version = "2.1.8"
+version = "2.1.9"
 backend = "aqua:evilmartians/lefthook"
 
 [tools.lefthook."platforms.linux-arm64"]
-checksum = "sha256:2c0af40eb3209917733f72329abc2e91e51aa5fab85475ec515978c852c4d470"
-url = "https://github.com/evilmartians/lefthook/releases/download/v2.1.8/lefthook_2.1.8_Linux_aarch64.gz"
+checksum = "sha256:d1bae1c9c26b35270dd675c93c33cecead885368ed078b3976ec23cdcedd28e8"
+url = "https://github.com/evilmartians/lefthook/releases/download/v2.1.9/lefthook_2.1.9_Linux_aarch64.gz"
 provenance = "github-attestations"
 
 [tools.lefthook."platforms.linux-arm64-musl"]
-checksum = "sha256:2c0af40eb3209917733f72329abc2e91e51aa5fab85475ec515978c852c4d470"
-url = "https://github.com/evilmartians/lefthook/releases/download/v2.1.8/lefthook_2.1.8_Linux_aarch64.gz"
+checksum = "sha256:d1bae1c9c26b35270dd675c93c33cecead885368ed078b3976ec23cdcedd28e8"
+url = "https://github.com/evilmartians/lefthook/releases/download/v2.1.9/lefthook_2.1.9_Linux_aarch64.gz"
 provenance = "github-attestations"
 
 [tools.lefthook."platforms.linux-x64"]
-checksum = "sha256:15420bb2ce30ba5b71e242542b28f06447630011af924a3324ff63a0fee32f8c"
-url = "https://github.com/evilmartians/lefthook/releases/download/v2.1.8/lefthook_2.1.8_Linux_x86_64.gz"
+checksum = "sha256:e938f34bd05bafe1155888879a045ef4ee8cf5b4a56c9e5e9b0c2649f295636e"
+url = "https://github.com/evilmartians/lefthook/releases/download/v2.1.9/lefthook_2.1.9_Linux_x86_64.gz"
 provenance = "github-attestations"
 
 [tools.lefthook."platforms.linux-x64-musl"]
-checksum = "sha256:15420bb2ce30ba5b71e242542b28f06447630011af924a3324ff63a0fee32f8c"
-url = "https://github.com/evilmartians/lefthook/releases/download/v2.1.8/lefthook_2.1.8_Linux_x86_64.gz"
+checksum = "sha256:e938f34bd05bafe1155888879a045ef4ee8cf5b4a56c9e5e9b0c2649f295636e"
+url = "https://github.com/evilmartians/lefthook/releases/download/v2.1.9/lefthook_2.1.9_Linux_x86_64.gz"
 provenance = "github-attestations"
 
 [tools.lefthook."platforms.macos-arm64"]
-checksum = "sha256:911d530d68ba1495beb32009bf895e296208a556a030d254e8d5641823ba7a25"
-url = "https://github.com/evilmartians/lefthook/releases/download/v2.1.8/lefthook_2.1.8_MacOS_arm64.gz"
+checksum = "sha256:808f8ef81a61e01eb41c1a2951e5639804f2372dc6a484bbeff726406745c77f"
+url = "https://github.com/evilmartians/lefthook/releases/download/v2.1.9/lefthook_2.1.9_MacOS_arm64.gz"
 provenance = "github-attestations"
 
 [tools.lefthook."platforms.macos-x64"]
-checksum = "sha256:5d95768cf7383e21e5320dc1b351671fca009bc44800ec2366f824f5540d354f"
-url = "https://github.com/evilmartians/lefthook/releases/download/v2.1.8/lefthook_2.1.8_MacOS_x86_64.gz"
+checksum = "sha256:371c3c75cb07a8cdf41295596d3981adc1f92dee7795001f7d471e1f36fe2a0e"
+url = "https://github.com/evilmartians/lefthook/releases/download/v2.1.9/lefthook_2.1.9_MacOS_x86_64.gz"
 provenance = "github-attestations"
 
 [tools.lefthook."platforms.windows-x64"]
-checksum = "sha256:13cab0ebb26b89c66bbf53a658c4126bf34202a857412690bb61c14c530b1ecf"
-url = "https://github.com/evilmartians/lefthook/releases/download/v2.1.8/lefthook_2.1.8_Windows_x86_64.gz"
+checksum = "sha256:1f29681dfbc36b9bdde52139cca6c4668ea4d51fd81e9127a3b78f49369db67e"
+url = "https://github.com/evilmartians/lefthook/releases/download/v2.1.9/lefthook_2.1.9_Windows_x86_64.gz"
 provenance = "github-attestations"
 
 [[tools.markdownlint-cli2]]
