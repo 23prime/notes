@@ -16,7 +16,7 @@ node = "26"
 
 # Markdown
 markdownlint-cli2 = "0.22"
-"github:23prime/mdsn" = "0.2"
+"github:23prime/mdsn" = "v0.3.0"
 "github:kevingimbel/mktoc" = "5"
 
 # GitHub Actions
